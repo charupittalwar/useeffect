@@ -8,7 +8,7 @@ const User:React.FC<any> = (props) => {
 
 const [isError , setIserror] = useState <any> ({status :false , msg :""})
 
-const chkerror = ( msg = 'default msg') => {
+const chkerror = ( msg = 'default msg is ') => {
 
 alert(isError.msg);
 
